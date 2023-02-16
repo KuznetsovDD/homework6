@@ -14,11 +14,11 @@ def arithmetic_progression(a,b,c):
         a+=b
     return list_arith
 
-# def arithmetic_progression2(a,b,c):
-#     list_arith= list()
-#     for i in range(1, c):
-#         list_arith.append(a+(i-1)*b)
-#     return list_arith
+def arithmetic_progression2(a,b,c):
+    list_arith= list()
+    for i in range(c):
+        list_arith.append(a+i*b)
+    return list_arith
 
 
 fist_num = input_num()
